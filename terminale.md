@@ -1,21 +1,24 @@
-Installer Zsh sur sa macchine pour facilite l usage du terminale et
-rendre le terminal umpe plus attreant en codant
+### Installer Zsh sur sa macchine pour facilite l usage du terminale et
+### rendre le terminal umpe plus attreant en codant
 
 
-STEP 1
-    - tape dans le terminal 
-    sudo apt install zsh
+### STEP 1
 
-STEP 2
+    tape dans le terminal 
+    -sudo apt install zsh
+
+### STEP 2
+
     apres l installation complete de zsh .par defaut la shell ne se demare pas 
     automatiquement sur Zsh mais sur bash et pour y remedier , taper cette 
     commande dans le terminal
+
     -echo $SHELL (pour verifier quelle est le moteur par defaut de votre shell)
     
     Dans le cas ou votre shell ne demare pas sur bash alors taper cette commande
     - (sudo) chsh -s $(which zsh)
 
-STEP 3
+### STEP 3
 
     installation et Configuration de Zsh
 
@@ -32,7 +35,7 @@ STEP 3
     -sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-STEP 4 
+### STEP 4 
 
     Changement du theme par defaut de zsh.
     le theme par defaut de zsh est robbyrusell.
@@ -80,7 +83,7 @@ STEP 4
 
     -DEFAULT_USER=$USER
 
-STEP 5
+### STEP 5
 
     ACtiver certain plugins pour rendre plus performant zsh
     -cd ~/.oh-my-zsh/plugins/
@@ -99,7 +102,7 @@ STEP 5
     -source ~/.zshrc
 
 
-STEP 6 
+### STEP 6 
     DEsintallation de zsh
     -uninstall oh_my_zsh
 
@@ -121,7 +124,7 @@ STEP 6
 
 
 
-STEP Final au cas ou yas des soucis 
+### STEP Final au cas ou yas des soucis 
 - aller sur le site:
 https://qirolab.com/posts/install-and-setup-oh-my-zsh-on-ubuntu-system
 pour suivre les etape de  l installation pas a pas 
